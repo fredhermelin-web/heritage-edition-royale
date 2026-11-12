@@ -1,0 +1,13 @@
+HÉRITAGE V2.3 — Installation PWA (préserve le visuel V2.2)
+
+1. Ouvrir https://github.com/fredhermelin-web/heritage-edition-royale/upload/main
+2. Décompresser le présent ZIP sur le PC.
+3. Glisser TOUS les fichiers du dossier dans la zone d’envoi GitHub :
+   index.html, manifest.webmanifest, sw.js et les quatre icônes .png.
+   Ils doivent être à la RACINE du dépôt, au même niveau, sans sous-dossier.
+4. Valider « Commit changes » et attendre le déploiement GitHub Pages.
+5. Sur Android, ouvrir le lien HÉRITAGE dans Chrome, actualiser, puis menu ⋮ > Installer l’application.
+6. Si Chrome affiche encore « Impossible d’installer », fermer/reouvrir l’onglet, vérifier que les 7 fichiers sont bien à la racine et réessayer. Une désinstallation d’un ancien raccourci peut aider.
+
+Adresse : https://fredhermelin-web.github.io/heritage-edition-royale/
+Sécurité : interface démo uniquement. Pas de commandes réelles au Denon. La sauvegarde sur le PC et Drive reste essentielle ; le cache hors ligne n’est pas une archive permanente.

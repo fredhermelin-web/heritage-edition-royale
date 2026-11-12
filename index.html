@@ -132,6 +132,12 @@
 @media(max-width:760px){.hv-brush{height:43px}}
 @media(max-width:440px){.hv-brush{height:30px}}
 </style>
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="icon" type="image/png" sizes="192x192" href="./heritage-192.png">
+<link rel="apple-touch-icon" href="./heritage-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="HÉRITAGE">
 </head>
 <body>
 <svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" style="position:absolute;overflow:hidden" aria-hidden="true"><defs>
@@ -292,5 +298,13 @@ function message(t){const toast=document.querySelector('#toast');toast.textConte
   }
   if (document.fonts && document.fonts.ready) document.fonts.ready.then(update);
 })();
+</script>
+<script>
+/* PWA installation. The app remains a demonstration, not a connected Denon remote. */
+if ('serviceWorker' in navigator && location.protocol === 'https:') {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('./sw.js').catch(err => console.warn('Service Worker non installé :', err));
+  });
+}
 </script>
 </body></html>

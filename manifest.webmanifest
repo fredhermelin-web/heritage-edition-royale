@@ -1,0 +1,38 @@
+{
+  "id": "./",
+  "name": "HÉRITAGE — Édition Royale",
+  "short_name": "HÉRITAGE",
+  "description": "HÉRITAGE — Présentation royale du Denon AVR-X2800H.",
+  "lang": "fr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#071620",
+  "theme_color": "#091722",
+  "icons": [
+    {
+      "src": "./heritage-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./heritage-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./heritage-192-maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "./heritage-512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
